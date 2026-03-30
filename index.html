@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhaldney | Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho fixo com menu -->
+    <header>
+      <h2>Rhaldney</h2>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button id="temaBtn">🌙</button>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+      <h1>Sobre mim</h1>
+      <p>
+        Sou estudante de Análise e Desenvolvimento de Sistemas na UNINTER. Amo
+        aprender coisas novas e sou apaixonado por tecnologia e programação.
+        Também tenho experiência administrativa e gosto de projetos que unem
+        organização e tecnologia.
+      </p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+      <h1>Formação</h1>
+      <ul>
+        <li>Análise e Desenvolvimento de Sistemas - UNINTER</li>
+        <li>Assistente Administrativo - IFRS</li>
+        <li>Ensino Médio - EREM Porto Digital</li>
+      </ul>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+      <h1>Portfólio</h1>
+      <p>Projetos em Python, CSS, JavaScript e Desenvolvimento de Sistemas:</p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/RhaldneyFurtado/Loja-de-Camisas"
+            target="_blank"
+          >
+            Loja de Camisas
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/RhaldneyFurtado/Gerenciador-de-funcion-rios"
+            target="_blank"
+          >
+            Gerenciador de Funcionários
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+      <h1>Contato</h1>
+      <form id="formContato">
+        <input type="text" id="nome" placeholder="Nome" />
+        <input type="email" id="email" placeholder="Email" />
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

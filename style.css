@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Corrigido */
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+/* Cabeçalho fixo */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Links do menu */
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Espaçamento das seções */
+section {
+  padding: 100px 20px;
+  min-height: 100vh; /* Corrigido */
+}
+
+/* Mensagem de erro */
+#msg {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Inputs e textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Botões */
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Tema claro */
+.light {
+  background: #f4f4f4;
+  color: black;
+}
